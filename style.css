@@ -45,7 +45,7 @@ body{
 }
 /* home */
 #home{
-    background:linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.582)),url('/media/images/netflixbg.jpg') ;
+    background:linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.582)),url('netflixbg.jpg') ;
     height: 120vh;
     background-size:cover;
     background-repeat: no-repeat;
