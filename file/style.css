@@ -196,4 +196,45 @@ body{
     font-size: 23px;
     margin-top: 10px;
 }
-
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    width: 280px;
+    height: 80px;
+    z-index: 5;
+    position: relative;
+    top: 130px;
+    left: 73px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: #000000b7;
+}
+.box img{
+    width: 60px;
+    height: 70px;
+    margin: 5px 10px;
+}
+.box .text-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box .text-flex p{
+    color: white;
+    font-weight: 300;
+}
+.box .text-flex .blue{
+    color: blue;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.box .dn{
+    width: 30px;
+    height: 30px;
+}
+.box .icon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
