@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: #000;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.logo{
+    width: 150px;
+    height: 120px;
+    margin-left: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.btn button{
+    background: #E50914;
+    font-family:sans-serif;
+    padding-top: 6px !important;
+    padding: 5.5px 16px;
+    border-radius: 4px;
+    color: white;
+    font-style: bold;
+    border: none;
+    margin-right: 170px;
+    margin-top: 10px;
+}
+/* home */
+#home{
+    background:linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.582)),url('/media/images/netflixbg.jpg') ;
+    height: 120vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+#home .home-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+#home .home-flex .text{
+    color: white;
+    font-family:'Poppins',sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .home-flex .text h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+#home .home-flex .text p{
+    font-size: 20px;
+    margin: 7px 0px;
+    font-weight: 200 !important;
+}
+#home .home-flex .email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.email{
+    width: 37%;
+}
+.email-input{
+    padding: 14px 12px;
+    width: 100%;
+    height: 30px;
+    background: #00000042;
+    border: none;
+    border: 1px solid #E50914;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.email-input::placeholder{
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.644);
+    font-size: 14px;
+}
+.start-btn{
+    padding: 10px 12px;
+    background: #E50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 50%;
+    font-size: 20px;
+}
+.start-btn:hover{
+    background-color: #C11119;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn button:hover{
+    background-color: #C11119;
+    cursor: pointer;
+    transition: .3s ease;
+}
+/* tv section */
+#tv{
+    height: 80vh;
+}
+#tv .flex-tv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+#tv .flex-tv .text{
+    padding: 40px;
+    margin: 20px 45px;
+    width: 50%;
+    margin-left: 100px;
+}
+#tv .flex-tv .text h1{
+    font-size: 3rem;
+}
+#tv .flex-tv .text p{
+    font-size: 22px;
+}
+#tv .flex-tv .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    margin-right: 100px;
+}
+#tv .flex-tv .image img{
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+}
+#tv .flex-tv .image video{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 470px;
+    height: 100%;
+    z-index: 0;
+}
+/* download section */
+#download{
+    height: 80vh;
+}
+#download .flex-dn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#download .flex-dn .image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#download .flex-dn .image #img{
+    width: 480px;
+    margin-left: 140px;
+    position: absolute;
+}
+#download .flex-dn .text{
+    width: 50%;
+    padding: 20px 60px;
+}
+#download .flex-dn .text h1{
+    font-size: 3rem;
+}
+#download .flex-dn .text p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
